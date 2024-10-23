@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mcont{
+    
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.cont{
+    text-align: center;
+    flex-basis: 100%;
+    margin: 4px;
+    /* vertical-align: top;      */
+    /* width: 250px; */
+
+}
+img{
+    width: 100%;
+
+}
+.text{
+    margin: 20px;
+    padding: 10px;
+}
+/* .cont>div{
+    text-align: center;
+    display: block; */
+    
+@media screen and (min-width : 600px) {
+    .cont{
+        flex: 1 1 22%;
+    }
+    
+}
